@@ -197,3 +197,9 @@ p .text-aboutme {
     margin: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .weather-app-wrapper {
+    display: flex;
+  }
+}

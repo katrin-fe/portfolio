@@ -36,6 +36,11 @@ h3 {
   color: grey;
 }
 
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
 .name {
   font-size: 17px;
   font-weight: 500;
@@ -196,7 +201,7 @@ p .text-aboutme {
 }
 
 .nav-color {
-  background: var(--secondary-color);
+  background: white;
 }
 
 .img-fluid {

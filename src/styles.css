@@ -1,7 +1,6 @@
 :root {
   --primary-color: rgb(87, 152, 155);
   --secondary-color: rgb(229, 240, 240);
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   --primary-font: "Roboto", sans-serif;
 }
 
@@ -85,12 +84,6 @@ footer a {
   text-align: justify;
 }
 
-p .text-aboutme {
-  background: var(--secondary-color);
-  line-height: 1.5;
-  padding: 20px;
-}
-
 .card {
   display: block;
   margin: 0 auto;
@@ -110,7 +103,6 @@ p .text-aboutme {
   background: lightgrey;
   padding: 5px 20px;
   border-radius: 1px;
-  font-weight: 600;
   font-size: 16px;
   box-shadow: 1px 1px 1px lightgrey;
 }
@@ -141,10 +133,6 @@ p .text-aboutme {
   text-align: center;
 }
 
-.weather-link {
-  margin-left: 0;
-}
-
 .mail-me {
   display: block;
   text-align: center;
@@ -155,18 +143,6 @@ p .text-aboutme {
 
 .mail-me:hover {
   text-decoration: underline;
-}
-
-.img-weather-app {
-  background: var(--secondary-color);
-  border-radius: 4px;
-  padding: 40px;
-}
-
-.text-weather-app {
-  padding-left: 30px;
-  text-align: left;
-  margin: 0 auto;
 }
 
 .nav-color {
@@ -209,35 +185,6 @@ p .text-aboutme {
 
   h2 {
     font-size: 20px;
-  }
-
-  .heading-weatherapp {
-    font-size: 22px;
-  }
-
-  .text-weather-app {
-    text-align: center;
-    width: 80%;
-    padding: 0;
-  }
-
-  .img-weather-app {
-    display: none;
-  }
-
-  .primary-link {
-    font-size: 12px;
-    padding: 9px;
-  }
-
-  .secondary-link {
-    font-size: 12px;
-    padding-bottom: 13px;
-    padding: 9px;
-  }
-
-  .weather-link {
-    margin: 0;
   }
 
   .introduction {

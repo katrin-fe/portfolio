@@ -149,11 +149,6 @@ footer a {
   background: white;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .linkedin {
   color: var(--primary-color);
   text-align: center;
@@ -179,8 +174,14 @@ footer a {
 }
 
 @media (max-width: 576px) {
+  body {
+    min-width: 100%;
+  }
+
   h1 {
     font-size: 26px;
+    padding-top: 80px;
+    padding-bottom: 30px;
   }
 
   h2 {
@@ -189,5 +190,9 @@ footer a {
 
   .introduction {
     min-width: 100%;
+  }
+
+  .logo-portfolio {
+    max-width: 80%;
   }
 }

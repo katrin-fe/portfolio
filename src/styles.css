@@ -8,21 +8,24 @@
 body {
   font-family: var(--primary-font);
   font-weight: 300;
+  display: block;
+  margin-right: 0;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--primary-font);
+  font-weight: 300;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
+  margin-top: 0px;
 }
 
 h2 {
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 23px;
 }
 
 h3 {
@@ -33,10 +36,54 @@ h3 {
   color: grey;
 }
 
-.site-wrapper {
-  max-width: 800px;
+.name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.hero {
+  max-width: 100%;
+  margin: 100px 70px 20px 70px;
+}
+
+.hero p {
+  margin-top: 20px;
+}
+
+.hero-portfolio {
+  margin-top: 0px;
+}
+
+.logo {
+  display: block;
   margin: 0 auto;
-  margin-top: 120px;
+}
+
+.logo-portfolio {
+  display: block;
+  margin: 0 auto;
+  opacity: 15%;
+}
+
+.work-samples {
+  margin-top: -230px;
+}
+
+.introduction {
+  padding: 70px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.introduction p {
+  padding: 0 60px;
+  text-align: justify;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 p .text-aboutme {
@@ -45,10 +92,15 @@ p .text-aboutme {
   padding: 20px;
 }
 
-.country-code {
-  font-size: 10px;
-  margin-right: 5px;
-  font-family: arial;
+.card-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.card-link:hover {
+  font-weight: 800;
+  color: var(--primary-color);
 }
 
 .links-subsites {

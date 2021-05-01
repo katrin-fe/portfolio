@@ -79,9 +79,10 @@ footer a {
   margin: 0 auto;
 }
 
-.introduction p {
-  padding: 0 60px;
+.introduction {
+  padding: 40px 83px;
   text-align: justify;
+  min-width: 100%;
 }
 
 .card {
@@ -196,5 +197,6 @@ footer a {
   .logo-portfolio {
     max-width: 100%;
     padding-top: 40px;
+    opacity: 10%;
   }
 }

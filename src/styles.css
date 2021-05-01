@@ -75,7 +75,7 @@ footer a {
 }
 
 .introduction {
-  padding: 70px;
+  padding: 40px 0px;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -135,37 +135,6 @@ p .text-aboutme {
   margin-bottom: 70px;
   display: block;
   text-align: center;
-}
-
-.primary-link {
-  background: var(--primary-color);
-  color: white;
-  margin: 20px;
-  border-radius: 4px;
-  padding: 15px 12px;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: var(--box-shadow);
-}
-
-.primary-link:hover {
-  color: black;
-}
-
-.secondary-link {
-  background: transparent;
-  color: var(--primary-color);
-  margin: 20px;
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
-  padding: 15px 12px;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: var(--box-shadow);
-}
-
-.secondary-link:hover {
-  color: black;
 }
 
 .text-aboutme {
@@ -242,9 +211,6 @@ p .text-aboutme {
     font-size: 20px;
   }
 
-  body {
-    min-width: 600px;
-  }
   .heading-weatherapp {
     font-size: 22px;
   }
@@ -272,5 +238,9 @@ p .text-aboutme {
 
   .weather-link {
     margin: 0;
+  }
+
+  .introduction {
+    min-width: 100%;
   }
 }

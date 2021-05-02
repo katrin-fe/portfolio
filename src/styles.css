@@ -57,7 +57,7 @@ footer a {
   opacity: 15%;
 }
 
-.work-samples {
+.top {
   margin-top: -230px;
 }
 
@@ -161,6 +161,11 @@ footer a {
   margin: 0 auto;
   text-align: center;
   padding: 50px;
+}
+
+.paragraph {
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 @media (max-width: 576px) {

@@ -9,6 +9,8 @@ body {
   font-weight: 300;
   display: block;
   margin-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1,
@@ -53,13 +55,6 @@ footer a {
   display: block;
   margin: 0 auto;
   opacity: 15%;
-  padding-bottom: -100px;
-}
-
-.logo-portfolio {
-  display: block;
-  margin: 0 auto;
-  opacity: 15%;
 }
 
 .work-samples {
@@ -67,15 +62,10 @@ footer a {
 }
 
 .introduction {
-  padding: 40px 0px;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.introduction {
-  padding: 40px 83px;
+  padding: 40px 20px;
   text-align: justify;
   min-width: 100%;
+  margin: 0 auto;
 }
 
 .card {
@@ -166,6 +156,13 @@ footer a {
   line-height: 1;
 }
 
+.contact-me {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
 @media (max-width: 576px) {
   body {
     min-width: 100%;
@@ -184,7 +181,7 @@ footer a {
     min-width: 100%;
   }
 
-  .logo-portfolio {
+  .logo {
     max-width: 100%;
     padding-top: 40px;
     opacity: 10%;

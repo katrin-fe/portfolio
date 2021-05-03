@@ -119,7 +119,6 @@ footer a {
 .network {
   color: gray;
   text-align: center;
-  display: block;
   margin-bottom: 30px;
   font-size: 30px;
   text-decoration: none;
@@ -130,7 +129,7 @@ footer a {
   font-size: 35px;
   cursor: pointer;
   transition: all 50ms ease-in-out;
-  color: black;
+  color: gray;
 }
 
 .contact-me {
@@ -192,5 +191,9 @@ footer a {
 
   .heart {
     color: black;
+  }
+
+  .network {
+    color: var(--secondary-color);
   }
 }

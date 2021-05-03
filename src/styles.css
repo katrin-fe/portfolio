@@ -127,7 +127,6 @@ footer a {
 
 .network:hover {
   cursor: pointer;
-  transition: all 50ms ease-in-out;
   color: gray;
 }
 
@@ -193,6 +192,11 @@ footer a {
   }
 
   .network {
+    color: var(--secondary-color);
+  }
+
+  .network:hover {
+    cursor: pointer;
     color: var(--secondary-color);
   }
 }

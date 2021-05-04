@@ -190,13 +190,4 @@ footer a {
   .heart {
     color: var(--secondary-color);
   }
-
-  .network {
-    color: var(--secondary-color);
-  }
-
-  .network:hover {
-    cursor: pointer;
-    color: var(--secondary-color);
-  }
 }

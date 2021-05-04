@@ -190,4 +190,8 @@ footer a {
   .heart {
     color: var(--secondary-color);
   }
+
+  .link {
+    color: var(--secondary-color);
+  }
 }

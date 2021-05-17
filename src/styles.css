@@ -26,6 +26,7 @@ h2 {
   font-size: 30px;
   color: var(--secondary-color);
   text-decoration: overline 1px solid var(--secondary-color);
+  margin-top: -100px;
 }
 
 .h1-portfolio {
@@ -51,6 +52,7 @@ h2.h2-mail {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  padding-top: 160px;
 }
 
 h3 {
@@ -131,7 +133,7 @@ video {
 img.logo-home {
   opacity: 20%;
   margin: 0 auto;
-  margin-top: -330px;
+  margin-top: -250px;
   display: block;
 }
 
@@ -226,7 +228,7 @@ img.logo-home {
   margin: 0 auto;
   text-align: center;
   padding: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .contact-me-portfolio {
@@ -301,6 +303,7 @@ img.logo-home {
 
   h2 {
     font-size: 19px;
+    text-decoration: none;
   }
 
   h5 {
@@ -310,8 +313,8 @@ img.logo-home {
 
   .h1-portfolio {
     font-size: 100px;
-    margin-bottom: 20px;
-    color: white;
+    margin-bottom: 50px;
+    color: var(--secondary-color);
   }
 
   .introduction p {
@@ -366,7 +369,7 @@ img.logo-home {
   }
 
   img.logo-home {
-    margin-top: -220px;
+    margin-top: -200px;
     width: 80%;
     margin-bottom: -50px;
   }
@@ -386,5 +389,9 @@ img.logo-home {
 
   .she-codes-foundation {
     font-size: 40px;
+  }
+
+  .contact-me {
+    margin-top: -10px;
   }
 }

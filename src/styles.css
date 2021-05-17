@@ -190,6 +190,20 @@ img.logo-home {
   font-weight: 400;
 }
 
+.resume-app-on-contactpage {
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--secondary-color);
+  color: white;
+}
+
+.resume-app-on-contactpage:hover {
+  background: var(--third-color);
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
 .she-codes-foundation {
   font-family: var(--secondary-font);
   font-size: 50px;

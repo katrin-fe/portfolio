@@ -244,7 +244,7 @@ img.logo-home {
 
 .publication-list a {
   text-decoration: none;
-  color: gray;
+  color: var(--secondary-color);
 }
 
 .publication-list a:hover {

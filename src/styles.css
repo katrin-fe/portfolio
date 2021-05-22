@@ -275,46 +275,63 @@ img.logo-home {
   margin-top: 5px;
 }
 
-@media (min-width: 320px) {
-  @media (max-width: 320px) {
-    body {
-      width: 100%;
-    }
+@media (max-width: 320px) {
+  body {
+    width: 100%;
+  }
 
-    .hero {
-      padding-top: 10px;
-    }
+  .hero {
+    padding-top: 10px;
+  }
 
-    h2.text-center {
-      font-size: 13px;
-    }
+  h2.text-center {
+    font-size: 13px;
+  }
 
-    .introduction {
-      margin-top: 0px;
-      margin-right: 0px;
-      width: 100%;
-    }
+  .introduction {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
 
-    h1 {
-      font-size: 60px;
-    }
+  h1 {
+    font-size: 60px;
+  }
 
-    h2 {
-      margin-top: 80px;
-      margin-bottom: 0px;
-    }
+  h2 {
+    margin-top: 80px;
+    margin-bottom: 0px;
   }
 
   .intro-xs-dev {
     margin-top: -120px;
+    margin-right: 0px;
   }
 
   .img-xs-dev {
     display: none;
   }
 
-  .hero-xs-dev {
-    display: none;
+  .row.introduction {
+    margin: 0 auto;
+  }
+
+  h2.h2-mail {
+    padding-top: 0px;
+    margin-top: 20px;
+  }
+
+  .h1-about {
+    margin-top: -180px;
+  }
+
+  a.link.she-codes-foundation {
+    font-size: 30px;
+  }
+
+  h1.h1-contactpage {
+    font-size: 50px;
+    padding-top: 30px;
   }
 }
 
